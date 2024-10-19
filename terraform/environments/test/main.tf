@@ -53,6 +53,7 @@ module "publicip" {
   resource_group   = "${module.resource_group.resource_group_name}"
 }
 
+
 module "vm" {
   source                = "../../modules/vm"
   vm_name               = var.vm_name
