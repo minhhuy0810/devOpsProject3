@@ -56,3 +56,7 @@ variable "vm_name" {
   description = "The name of the Virtual Machine"
   type        = string
 }
+
+variable "access_key" {
+  type        = string
+}
